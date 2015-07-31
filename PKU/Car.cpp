@@ -30,6 +30,6 @@ CCar::~CCar()
 }
 
 int main(){
-	CCar car(20000, 17, 225);
+	CCar car(20000, 17, 226);
 	return 0;
 }
