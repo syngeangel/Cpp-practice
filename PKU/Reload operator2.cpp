@@ -4,7 +4,7 @@ using namespace std;
 class MyString
 {
 public:
-	MyString() :str(NULL){}
+	MyString() :str(NULL){}	//初始化构造函数
 	const char* c_str(){ return str; }
 	char* MyString::operator=(const char* s);//重载operator=函数的声明
 	MyString& operator=(const MyString& s);//更保险，能深度复制
